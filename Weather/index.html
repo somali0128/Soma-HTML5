@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Weaher in Halifax</title>
+	<link rel="stylesheet" type="text/css" href="src/weather.css">
+	<meta name="author" content="Soma">
+	<meta name="teacher" content="Quan">
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body id="halifax-weather">
+<div>
+	<section>
+		<header>
+			<h1>Weather in <abbr title="Halifax">HFX</abbr><h1/>
+			<h2>What is Halifax?</h2>
+		</header>
+
+		<div class="intro">
+			<p><b>Halifax</b>, officially known as the Halifax Regional Municipality <abbr title="Halifax Regional Municipality">(HRM)</abbr>, is the capital of the Canadian province of Nova Scotia. It had a population of 403,131 in 2016, with 316,701 in the urban area centred on Halifax Harbour. The regional municipality consists of four former municipalities that were amalgamated in 1996: Halifax, Dartmouth, Bedford, and Halifax County.</p>
+			<p>Halifax is a major economic centre in Atlantic Canada, with a large concentration of government services and private sector companies. Major employers and economic generators include the Department of National Defence, Dalhousie University, Saint Mary's University, the Halifax Shipyard, various levels of government, and the Port of Halifax. Agriculture, fishing, mining, forestry and natural gas extraction are major resource industries found in the rural areas of the municipality.</p>
+			<p>Reference by <a href="https://en.wikipedia.org/wiki/Halifax,_Nova_Scotia" title="Go to Wikipedia" target="_blank">Wikipedia: Halifax</a></p>
+		</div>
+	</section>
+</div>
+
+<div>
+	<h2 id="say"> Say hello to Halifax!</h2>
+		<p1>
+			Type your name:
+			<input id="name" type="text">
+			<button onclick="say();">
+				Say it!
+			</button>
+		</p1>
+
+<div class="test"></div>
+<script src="src/sayhi.js"></script>
+
+<p2> 
+	<button onclick="weatherinfo();">
+       Get today's Weather
+    </button>
+</p2>
+
+<div class="display">
+	<p3 class="desc"></p3>
+	<div></div>
+	<p4 class="temp"></p4>
+</div>
+<script src="src/halifaxweather.js"></script>
+</body>
+</html>

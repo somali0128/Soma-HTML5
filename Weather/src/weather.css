@@ -1,0 +1,66 @@
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #3ea2c2;
+	background: url(https://raw.githubusercontent.com/somali0128/coursera-test/Weather/Weather/image/halifax1.jpg) no-repeat;
+	background-size: cover;
+}
+
+
+h1 {
+	font: 200% georgia, sans-serif;
+	line-height: 2;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-weight: bold;
+	text-align: center;
+
+
+}
+
+h2 {
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+p1 {
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em
+
+}
+
+body {
+	
+	background-size: cover;
+	margin: 10px;
+}
+
+.intro { 
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em
+
+}
+
+.info{ 
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em
+
+}
+
+.test {
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.desc {
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-size: 60px;
+}
+
+
+.temp {
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-size: 60px;
+}
